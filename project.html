@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>❤︎ sheInsprires</title>
+    <style>
+      body {
+        background-color: #ffeff2;
+      }
+      h1 {
+        text-align: center;
+        background-color: white;
+      }
+      h2 {
+        text-align: center;
+        border: 4px solid black;
+        padding: 5px;
+      }
+      img {
+        display: block;
+        margin: 0 auto;
+        max-width: 75%;
+        padding: 10px;
+      }
+      p {
+        text-align: center;
+        line-height: 1.5;
+        font-size: 13px;
+        margin: 20 0 10;
+      }
+      a {
+        display: block;
+        text-align: center;
+        margin-top: 4px;
+        text-decoration: none;
+        font-size: 12px;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+      button {
+        display: block;
+        margin: 20px auto;
+        padding: 5px;
+        color: white;
+        background: black;
+        padding: 15px 20px;
+        font-size: 16px;
+        border: none;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        transition: all 200ms ease-in-out;
+      }
+
+      button:hover {
+        opacity: 30;
+        cursor: pointer;
+        background: white;
+        color: black;
+      }
+      .container {
+        max-width: 700px;
+        margin: 0 auto;
+        padding: 10px 60px 60px 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>The Key to Pursuing Your Passions: <br />A Quick Little Blurb</h1>
+      <h2>
+        <em
+          >"The more I study the more instatiable do I feel my genius to
+          be."</em
+        >
+        <br />- Ada Lovelace
+      </h2>
+      <img
+        src="https://ojjme2x5sm337cgpo2mhuny3-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/women-technology-02-1.png"
+        width="600 px"
+      />
+      <p>
+        Pursuing one's goals and dreams with a purpose every single day is true
+        dedication to one's self. I hope you awaken with a fire within your
+        heart and mind to push yourself to make your dreams a reality. Whether
+        you are pursuing a career in tech, furthering your personal growth or
+        doing something you sincerely love, continue the journey and keep
+        learning,
+        <em>always.</em>
+        When one woman helps another, amazing things can happen. Professional
+        careers leap forward and we begin to close the gender gap in all aspects
+        of life. Being the young woman that I am I look forward to furthering my
+        career in the tech industry, so that I may create technology that can
+        help those in need and make life more enjoyable. And honestly, I can't
+        wait.
+      </p>
+      <a href="https://www.womenintechnology.org/" target="_blank"
+        >Looking to be inspired by other women in technology?</a
+      >
+      <button class="buy-Button">
+        Buy Women in Tech Merch Here✨
+      </button>
+      <p>This page was built by Christina Sarmiento</p>
+      <script>
+        function buy() {
+          let name = prompt("What is your name?");
+          let email = prompt("What is your email?");
+          let emoji = prompt("What is your favorite emoji?");
+
+          alert(
+            "Thank you, " +
+              name +
+              ". We'll be in touch via email" +
+              "! Meanwhile have a lovely day! " +" " +
+              emoji
+          );
+        }
+
+        let buyButton = document.querySelector(".buy-Button");
+        buyButton.addEventListener("click", buy);
+      </script>
+    </div>
+  </body>
+</html>
